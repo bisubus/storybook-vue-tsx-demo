@@ -1,0 +1,29 @@
+{
+  "name": "storybook-vue-tsx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/vue3": "^6.4.22",
+    "@vue/cli-plugin-babel": "~4.5.17",
+    "@vue/cli-plugin-typescript": "~4.5.17",
+    "@vue/cli-service": "~4.5.17",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-loader": "^8.2.5",
+    "typescript": "~4.1.5",
+    "vue-loader": "^16.8.3"
+  }
+}
